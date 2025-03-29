@@ -9,3 +9,6 @@ teacher Qian的第二次修改
 2. 如何切换到开发分支，并提交修改到远程仓库
     右下角点击git，切换开发分支（dev），修改，完成提交（commit ，push）
 3. 使用git pull 拉取分支
+   ***解决冲突：
+        git commit 本地提交，然后git pull，点击merge，手动选择要暂存的记录
+     完成之后，点击apply，最后进行git push 完成冲突合并，并提交代码。
